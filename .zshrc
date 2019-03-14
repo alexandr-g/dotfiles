@@ -97,6 +97,7 @@ alias gx='gitx --all'
 alias gl='git log'
 alias gp='git push'
 alias gcs='git commit -a -S -m '
+alias git_sync='git pull -r && git push'
 
 # home path for android-react-native
 export ANDROID_HOME=~/Library/Android/sdk
