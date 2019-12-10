@@ -12,8 +12,9 @@ chsh -s $(which zsh)
 # Install zsh-autosuggestions plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
-brew tap caskroom/cask
-brew tap caskroom/versions
+
+brew tap homebrew/cask-cask
+brew tap homebrew/versions
 
 # Spectacle
 brew cask install spectacle 
