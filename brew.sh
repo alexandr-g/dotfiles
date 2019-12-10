@@ -14,7 +14,7 @@ BREW_PREFIX=$(brew --prefix)
 
 # Install other useful binaries.
 brew install jq
-brew install yarn --without-node
+brew install yarn
 brew install ccat
 brew install exa
 brew install fd
