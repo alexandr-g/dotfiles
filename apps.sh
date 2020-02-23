@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install nvm (https://github.com/nvm-sh/nvm)
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | bash
 
 # Install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
