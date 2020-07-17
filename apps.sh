@@ -15,6 +15,10 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 
 brew tap homebrew/cask-cask
 brew tap homebrew/versions
+brew tap homebrew/cask-fonts
+
+# Fira code font
+brew cask install font-fira-code
 
 # Spectacle
 brew cask install spectacle 
