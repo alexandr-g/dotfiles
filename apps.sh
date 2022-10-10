@@ -13,18 +13,19 @@ chsh -s $(which zsh)
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
 
 brew install --cask \
-    font-fira-code \
-    spectacle \
     iTerm2 \
-    spotify \
     visual-studio-code \
+    firefox-developer-edition \
+    google-chrome \
+    font-fira-code \
+    slack
+    spectacle \
+    spotify \
     docker \
     dropbox \
-    google-chrome \
-    firefox \
     alfred \
     keepassx \
     rowanj-gitx \
-    slack
