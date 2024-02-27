@@ -1,0 +1,7 @@
+[user]
+    name = <Your Name>
+    email = <Your Work Email>
+[pull]
+	rebase = true
+[push]
+	autoSetupRemote = true

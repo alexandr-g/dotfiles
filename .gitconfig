@@ -1,5 +1,5 @@
-[user]
-	name = Oleksandr Hrishchuk
-	email = alexgrischuk@gmail.com
-[pull]
-	rebase = true
+[includeIf "gitdir:~/projects/"]
+    path = ~/.gitconfig-personal
+
+[includeIf "gitdir:~/company/"]
+    path = ~/.gitconfig-work
