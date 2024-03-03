@@ -1,0 +1,19 @@
+- name: Install apps via brew casks
+  community.general.homebrew_cask:
+    name: "{{ item }}"
+  ignore_errors: yes
+  with_items:
+    - iterm2
+    - 1password
+    - figma
+    - google-chrome
+    - firefox-developer-edition
+    - slack
+    - visual-studio-code
+    - spectacle
+
+- name: "Install homebrew packages"
+  community.general.homebrew:
+    name: ["zsh", "yarn", "fnm"]
+    state: present
+    update_homebrew: yes
